@@ -1,0 +1,226 @@
+December 13, 2001
+Contents
+
+1. Welcome
+
+2. Minimum System Requirements
+
+3. Technical Issues
+
+4. Acknowledgements
+
+5. Changes
+
+
+1. Welcome
+
+Thank you for purchasing Tux Racer.
+
+This document contains last minute information about Tux Racer, as
+well as a guide to finding answers to your technical questions.  For
+the latest in information and patches, be sure to visit the Tux Racer
+website at http://www.tuxracer.com or the Sunspire Studios website at
+http://www.sunspirestudios.com.
+
+
+2. Minimum System Requirements
+
+Hard Disk Space Required: 125 Mb
+
+Under Windows, DirectX 8.0 or greater is required (available from
+http://www.microsoft.com/directx).  
+
+Under Linux, XFree86 3.3.5 or newer is required.
+
+Minimum Specs:
+300Mhz CPU
+64MB RAM
+OpenGL compatible graphics card
+DirectSound compatible sound card (Windows) 
+OSS compatible sound card (Linux)
+
+Suggested Specs:
+500Mhz CPU
+128MB RAM
+32MB OpenGL compatible graphics card
+DirectSound compatible sound card (Windows) 
+OSS compatible sound card (Linux)
+
+Supported Operating Systems:
+Windows 98
+Windows 2000
+Windows ME
+Windows XP
+Linux (x86 only, kernel 2.2.x or 2.4.x)
+
+Supported Video Cards (Windows):
+(ALL Cards must be have at least 16MB Video RAM)
+NVIDIA TNT2 [1]
+NVIDIA GeForce
+NVIDIA GeForce2
+NVIDIA GeForce3
+Matrox G450 [2] 
+Matrox G550 [2]
+ATI Radeon
+3dfx Voodoo3 [3]
+
+[1] Updated drivers may be required for TNT2 cards. These can be
+retrieved from the nVidia web site (www.nvidia.com).
+
+[2] Matrox cards will require the latest drivers from the Matrox web
+site (www.matrox.com). Also, for shadows and reflections to operate
+correctly, you must change the advanced properties in the Matrox power
+desktop to turn on 32-bitZ.
+
+[3] 3dfx no longer exists and therefore there is no longer any vendor
+support for these video cards.  We have tested Tux Racer on the
+Voodoo3 2000 graphics card with success.  The Voodoo4 and Voodoo5
+models may also work, but we have not tested these models.
+
+Supported Video Cards (Linux):
+NVIDIA TNT2
+NVIDIA GeForce
+NVIDIA GeForce2
+NVIDIA GeForce3
+
+These cards will require the latest Linux drivers available from
+http://www.nvidia.com.
+
+Other cards with complete OpenGL 1.2-compatible Linux drivers should
+work with Tux Racer, but are not supported.
+
+
+3. Technical Issues
+
+3.1. Ensure that you have the latest drivers for your video card.
+
+In order to properly run Tux Racer, you make sure that you have
+installed the latest OpenGL-compatible drivers for your video card.
+
+Windows users can obtain the latest drivers from their video card
+manufacturer's web site.  Here is a partial list:
+
+NVIDIA:		http://www.nvidia.com
+ATI:		http://www.ati.com
+Matrox:		http://www.matrox.com
+3dfx:		http://www.voodoofiles.com [3dfx no longer provides support]
+
+Linux users:
+Linux NVIDIA drivers are available here:
+	http://www.nvidia.com/view.asp?PAGE=linux
+
+Information about Linux drivers for ATI products is available here:
+	http://www.ati.com/na/pages/resource_centre/dev_rel/linux.html
+
+Information about Linux drivers for Matrox products is available here:
+	http://www.matrox.com/mga/support/drivers/3rd_party/home.cfm
+
+Information about Linux drivers for 3dfx products is available here:
+	http://www.linuxvoodoo.com/
+
+
+3.2. Switching between 32-bit color and 16-bit color.
+
+You can switch between 32-bit color and 16-bit color from the
+Configure->Video screen.  However, on some systems this will produce
+an error.
+
+If you are unable to switch between 32-bit color and 16-bit color
+in-game, you can change this setting by editing Tux Racer's options
+file.  Quit Tux Racer and open the TuxRacer\config\options.txt file
+(in Windows) or the ~/.tuxracer-v1/options file (in Linux).  Search 
+for the line that starts with "set bpp_mode" and change it to
+    set bpp_mode 1
+for 16-bit color or
+    set bpp_mode 2
+for 32-bit color.
+
+3.3. 32-bit color for full features
+
+Some features (such as reflections, shadows, and bump-mapping) only
+work using 32-bit color.  (See 3.2 above for information on switching
+between 32-bit color and 16-bit color.)
+
+3.4. 16-Bit Windowed mode issue
+
+On some systems, windowed mode only works in 32-bit color mode, so if
+you are having problems playing Tux Racer in windowed mode, first set
+your desktop bit depth to 32-bit, as well as setting Tux Racer to
+32-bit color mode.  (See 3.2 above for information on switching between
+32-bit color and 16-bit color.)
+
+3.5. Framerate improvement
+
+If you find your framerate seems low, try disabling shadows by
+clicking the checkbox off in the Configure->Graphics screen.  Turning
+off shadows will have a bigger impact on performance than any of the
+other options.
+
+3.6. Difficulty level
+
+If you find the default settings are too difficult, try setting the
+level of difficulty to Easy by going to the Player Selection screen,
+creating a new player and selecting Easy from the Difficulty box.
+
+3.7. 11KHz sound issue
+
+Sound needs to be set to 22KHz or higher to avoid problems with music
+playback.  Note that the only way of changing the sound settings is by
+editing the options file.
+
+
+4. Acknowledgements
+
+Tux Racer uses the Simple Directmedia Layer Library (SDL) under the
+terms of the GNU Library General Public License.  See the file
+LGPL.txt for a copy of this license.  Source code for SDL is included
+in the 'extras' directory of the Tux Racer CD.  SDL is Copyright (C)
+1997, 1998, 1999, 2000, 2001 Sam Lantinga.
+
+Tux Racer uses the SDL MPEG Player Library (SMPEG) under the terms of
+the GNU Library General Public License.  See the file LGPL.txt for a
+copy of this license.  Source code for SMPEG is included in the
+'extras' directory of the Tux Racer CD.  SMPEG is Copyright (C) 1999
+Loki Entertainment Software.
+
+Tux Racer (Linux Version) uses the SDL_mixer Library under the terms
+of the GNU Library General Public License.  See the file LGPL.txt for
+a copy of this license.  Source code for SDL_mixer is included in the
+'extras' directory of the Tux Racer CD.  SMPEG is Copyright (C) 1999
+Loki Entertainment Software.
+
+Tux Racer uses the Loki Setup Installer, written by Sam Lantinga and
+Stéphane Peter, under the terms of the GNU General Public License.
+See the file GPL.txt for a copy of this license.  The installer also
+uses the Loki SetupDB package written by Stéphane Peter and Sam
+Lantinga at Loki Software, Inc., which is also covered by the GNU
+General Public License.  Source code for the Setup Installer and
+SetupDB is included in the the 'extras' directory of the Tux Racer CD.
+
+Tux Racer use the libz library, Copytigh 1995-1998 Jean-loup Gailly
+and Mark Adler.
+
+Tux Racer use the libpng library, Copyright 2000, 2001 Glenn
+Randers-Pehrson.
+
+Tux Racer uses the Tcl library by Scriptics Corporation.  The Tcl
+licensing terms are included in the file Tcl_license.txt included on
+the Tux Racer CD.
+
+
+5. Changes
+
+Version 1.1:
+- First retail release
+- Added Head-to-Head mode
+- Several gameplay tweaks and bug fixes
+
+Version 1.0.003:
+- Added low-res versions of object models
+
+Version 1.0.002:
+- Tweaked English font bitmaps
+- Disabled obsolete F10 console keybinding
+
+Version 1.0.001:
+- Fixed music loading bug in Arctic Cup

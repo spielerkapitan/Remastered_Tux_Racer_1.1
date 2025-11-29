@@ -1,0 +1,171 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}}
+\viewkind4\uc1\pard\qr\lang1033\f0\fs20 December 13, 2001\par
+\pard\b\fs24 Contents\b0\par
+\fs20\par
+1. Welcome\par
+\par
+2. Minimum System Requirements\par
+\par
+3. Technical Issues\par
+\par
+4. Acknowledgements\par
+\par
+5. Changes\par
+\par
+\par
+\b\fs24 1. Welcome\b0\fs20\par
+\par
+Thank you for purchasing Tux Racer.\par
+\par
+This document contains last minute information about Tux Racer, as well as a guide to finding answers to your technical questions.  For the latest in information and patches, be sure to visit the Tux Racer website at http://www.tuxracer.com or the Sunspire Studios website at http://www.sunspirestudios.com.\par
+\par
+\par
+\b\fs24 2. Minimum System Requirements\fs20\par
+\b0\par
+Hard Disk Space Required: 125 Mb\par
+\par
+Under Windows, DirectX 8.0 or greater is required (available from http://www.microsoft.com/directx).\par
+Under Linux, XFree86 3.3.5 or newer is required.\par
+\par
+Minimum Specs:\par
+300Mhz CPU\par
+64MB RAM\par
+OpenGL compatible graphics card\par
+DirectSound compatible sound card (Windows)\par
+OSS compatible sound card (Linux)\par
+\par
+Suggested Specs:\par
+500Mhz CPU\par
+128MB RAM\par
+32MB OpenGL compatible graphics card\par
+DirectSound compatible sound card (Windows)\par
+OSS compatible sound card (Linux)\par
+\par
+Supported Operating Systems:\par
+Windows 98\par
+Windows 2000\par
+Windows ME\par
+Windows XP\par
+Linux (x86 only, kernel 2.2.x or 2.4.x)\par
+\par
+Supported Video Cards (Windows):\par
+(ALL Cards must be have at least 16MB Video RAM)\par
+NVIDIA TNT2 [1]\par
+NVIDIA GeForce\par
+NVIDIA GeForce2\par
+NVIDIA GeForce3\par
+Matrox G450 [2] \par
+Matrox G550 [2]\par
+ATI Radeon\par
+3dfx Voodoo3 [3]\par
+\par
+[1] Updated drivers may be required for TNT2 cards. These can be retrieved from the nVidia web site (www.nvidia.com).\par
+[2] Matrox cards will require the latest drivers from the Matrox web site (www.matrox.com). Also, for shadows and reflections to operate correctly, you must change the advanced properties in the Matrox power desktop to turn on 32-bitZ.\par
+[3] 3dfx no longer exists and therefore there is no longer any vendor support for these video cards.  We have tested Tux Racer on the Voodoo3 2000 graphics card with success.  The Voodoo4 and Voodoo5 models may also work, but we have not tested these models.\par
+\par
+Supported Video Cards (Linux):\par
+NVIDIA TNT2\par
+NVIDIA GeForce\par
+NVIDIA GeForce2\par
+NVIDIA GeForce3\par
+These cards will require the latest Linux drivers available from http://www.nvidia.com.\par
+\par
+Other cards with complete OpenGL 1.2-compatible Linux drivers should work with Tux Racer, but are not supported.\par
+\par
+\par
+\b\fs24 3. Technical Issues\fs20\par
+\b0\par
+3.1. Ensure that you have the latest drivers for your video card.\par
+\par
+In order to properly run Tux Racer, you make sure that you have installed the latest OpenGL-compatible drivers for your video card.\par
+\par
+Windows users can obtain the latest drivers from their video card manufacturer's web site.  Here is a partial list:\par
+\par
+NVIDIA:\tab\tab http://www.nvidia.com\par
+ATI:\tab\tab http://www.ati.com\par
+Matrox:\tab\tab http://www.matrox.com\par
+3dfx:\tab\tab http://www.voodoofiles.com [3dfx no longer provides support]\par
+\par
+Linux users:\par
+Linux NVIDIA drivers are available here:\par
+\tab http://www.nvidia.com/view.asp?PAGE=linux\par
+\par
+Information about Linux drivers for ATI products is available here:\par
+\tab http://www.ati.com/na/pages/resource_centre/dev_rel/linux.html\par
+\par
+Information about Linux drivers for Matrox products is available here:\par
+\tab http://www.matrox.com/mga/support/drivers/3rd_party/home.cfm\par
+\par
+Information about Linux drivers for 3dfx products is available here:\par
+\tab http://www.linuxvoodoo.com/\par
+\par
+\par
+3.2. Switching between 32-bit color and 16-bit color.\par
+\par
+You can switch between 32-bit color and 16-bit color from the Configure->Video screen.  However, on some systems this will produce an\par
+error.\par
+\par
+If you are unable to switch between 32-bit color and 16-bit color in-game, you can change this setting by editing Tux Racer's options file.  Quit Tux Racer and open the TuxRacer\\config\\options.txt file (in Windows) or the ~/.tuxracer-v1/options file (in Linux).  Search for the line that starts with "set bpp_mode" and change it to\par
+    set bpp_mode 1\par
+for 16-bit color or\par
+    set bpp_mode 2\par
+for 32-bit color.\par
+\par
+3.3. 32-bit color for full features\par
+\par
+Some features (such as reflections, shadows, and bump-mapping) only work using 32-bit color.  (See 3.2 above for information on switching between 32-bit color and 16-bit color.)\par
+\par
+3.4. 16-Bit Windowed mode issue\par
+\par
+On some systems, windowed mode only works in 32-bit color mode, so if you are having problems playing Tux Racer in windowed mode, first set your desktop bit depth to 32-bit, as well as setting Tux Racer to 32-bit color mode.  (See 3.2 above for information on switching between 32-bit color and 16-bit color.)\par
+\par
+3.5. Framerate improvement\par
+\par
+If you find your framerate seems low, try disabling shadows by clicking the checkbox off in the Configure->Graphics screen.  Turning off shadows will have a bigger impact on performance than any of the other options.\par
+\par
+3.6. Difficulty level\par
+\par
+If you find the default settings are too difficult, try setting the level of difficulty to Easy by going to the Player Selection screen, creating a new player and selecting Easy from the Difficulty box.\par
+\par
+3.7. 11KHz sound issue\par
+\par
+Sound needs to be set to 22KHz or higher to avoid problems with music playback.  Note that the only way of changing the sound settings\par
+is by editing the options file.\par
+\par
+\par
+\b\fs24 4. Acknowledgements\par
+\b0\fs20\par
+Tux Racer uses the Simple Directmedia Layer Library (SDL) under the terms of the GNU Library General Public License.  See the file LGPL.txt for a copy of this license.  Source code for SDL is included in the 'extras' directory of the Tux Racer CD.  SDL is Copyright (C) 1997, 1998, 1999, 2000, 2001  Sam Lantinga.\par
+\par
+Tux Racer uses the SDL MPEG Player Library (SMPEG) under the terms of the GNU Library General Public License.  See the file LGPL.txt for a copy of this license.  Source code for SMPEG is included in the 'extras' directory of the Tux Racer CD.  SMPEG is Copyright (C) 1999 Loki Entertainment Software.\par
+\par
+Tux Racer (Linux Version) uses the SDL_mixer Library under the terms of the GNU Library General Public License.  See the file LGPL.txt for a copy of this license.  Source code for SDL_mixer is included in the 'extras' directory of the Tux Racer CD.  SMPEG is Copyright (C) 1999 Loki Entertainment Software.\par
+\par
+Tux Racer uses the Loki Setup Installer, written by Sam Lantinga and St\'e9phane Peter, under the terms of the GNU General Public License.   See the file GPL.txt for a copy of this license.  The installer also uses the Loki SetupDB package written by St\'e9phane Peter and Sam Lantinga at Loki Software, Inc., which is also covered by the GNU General Public License.  Source code for the Setup Installer and SetupDB is included in the the 'extras' directory of the Tux Racer CD.\par
+\par
+Tux Racer use the libz library, Copytigh 1995-1998 Jean-loup Gailly and Mark Adler.\par
+\par
+Tux Racer use the libpng library, Copyright 2000, 2001 Glenn Randers-Pehrson.\par
+\par
+Tux Racer uses the Tcl library by Scriptics Corporation.  The Tcl licensing terms are included in the file Tcl_license.txt included on the Tux Racer CD.\par
+\par
+\par
+\b\fs24 5. Changes\par
+\b0\fs20\par
+Version 1.1:\par
+- First retail release\par
+- Added Head-to-Head mode\par
+- Several gameplay tweaks and bug fixes\par
+\par
+Version 1.0.003:\par
+- Added low-res versions of object models\par
+\par
+Version 1.0.002:\par
+- Tweaked English font bitmaps\par
+- Disabled obsolete F10 console keybinding\par
+\par
+Version 1.0.001:\par
+- Fixed music loading bug in Arctic Cup\par
+\par
+}
+ 

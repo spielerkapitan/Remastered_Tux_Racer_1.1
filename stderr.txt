@@ -1,0 +1,8 @@
+Tux Racer 1.1
+A Sunspire Studios Production (http://www.sunspirestudios.com)
+(c) 1999-2000 Jasmin F. Patry
+(c) 2001 Sunspire Studios, Inc.
+
+Use of this software is subject to the terms set out in the file 
+EULA.txt, to which you must have agreed when installing this 
+software.
