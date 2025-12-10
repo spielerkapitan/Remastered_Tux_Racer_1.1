@@ -1,0 +1,561 @@
+animVersion 1.1;
+mayaVersion 4.0;
+timeUnit ntsc;
+linearUnit cm;
+angularUnit deg;
+startTime 0;
+endTime 29;
+anim translate.translateY translateY tuxroot 0 5 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    2 -0.096770712 spline spline 1 1 0;
+    3 -0.15061725 spline spline 1 1 0;
+    4.29 -0.20331722 spline spline 1 1 0;
+    7.59 -0.21 fixed fixed 1 1 0 -0.0041723146 1 -0.004172372 1;
+    9.235 -0.20815222 spline spline 1 1 0;
+    12.53 -0.091903435 spline spline 1 1 0;
+    17.47 -0.033075504 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim translate.translateZ translateZ tuxroot 0 5 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    1 0 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    5.945 0 spline spline 1 1 0;
+    12.53 -0.09985314 spline spline 1 1 0;
+    19.12 0.003202153 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX tuxroot 0 5 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    1 0.95468611 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    5.945 -11.101908 spline spline 1 1 0;
+    14.175 -11.101908 spline spline 1 1 0;
+    17.47 -0.073806802 spline spline 1 1 0;
+    19.12 4.7785578 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX chest 1 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 9.2535746 spline spline 1 1 0;
+    9.235 28.991045 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX neck 2 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -1.3953159 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    7.59 17.905072 spline spline 1 1 0;
+    14.175 0 spline spline 1 1 0;
+    19.12 -1.8364176 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX head 3 4 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -8.2946575 spline spline 1 1 0;
+    4.29 -6.4986022 spline spline 1 1 0;
+    9.235 6.8717849 spline spline 1 1 0;
+    17.47 -8.9532337 spline spline 1 1 0;
+    29 -0.00028125454 spline spline 1 1 0;
+  }
+}
+anim joint25 4 0 0;
+anim beak 4 2 0;
+anim joint27 5 0 0;
+anim lowerBeak1 5 1 0;
+anim lowerBeak1Shape 6 0 0;
+anim head 4 1 0;
+anim headShape 5 0 0;
+anim upperBeak1 4 1 0;
+anim upperBeak1Shape 5 0 0;
+anim neck2 3 1 0;
+anim neck2Shape 4 0 0;
+anim rotate.rotateX rotateX rightCollarbone 2 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 5.3814378 spline spline 1 1 0;
+    9.235 7.3312527 spline spline 1 1 0;
+    19.12 4.4192882 spline spline 1 1 0;
+    22.41 3.0578457 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX rightShoulder 3 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    3.625 -63.932779 spline spline 1 1 0;
+    6.61 -102.73177 spline spline 1 1 0;
+    15.565 -16.087351 spline spline 1 1 0;
+    20.045 -0.042341007 spline spline 1 1 0;
+    23.03 -0.042341007 spline spline 1 1 0;
+    29 -0.042341007 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateY rotateY rightShoulder 3 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    3.625 -149.3669 spline spline 1 1 0;
+    6.61 -90.761675 spline spline 1 1 0;
+    15.565 -13.52575 fixed fixed 1 1 0 79.043065 1 79.043065 1;
+    20.045 0 spline spline 1 1 0;
+    23.03 0 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateZ rotateZ rightShoulder 3 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    3.625 -157.50458 spline spline 1 1 0;
+    6.61 -92.363769 spline spline 1 1 0;
+    15.565 -9.9229746 spline spline 1 1 0;
+    20.045 0 spline spline 1 1 0;
+    23.03 0 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX rightElbow 4 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -4.7615912 spline spline 1 1 0;
+    2.645 0 flat flat 1 1 0;
+    4.29 -39.482025 spline spline 1 1 0;
+    9.235 -0.37254336 spline spline 1 1 0;
+    19.12 4.0423405 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim joint43 5 0 0;
+anim lowerRightArm 5 3 0;
+anim lowerRightArmShape 6 0 0;
+anim polySurfaceShape5 6 0 0;
+anim polySurfaceShape18 6 0 0;
+anim upperRightArm 4 2 0;
+anim upperRightArmShape 5 0 0;
+anim polySurfaceShape17 5 0 0;
+anim rightShoulder2 3 1 0;
+anim rightShoulder2Shape 4 0 0;
+anim rotate.rotateX rotateX leftCollarbone 2 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 5.3814378 spline spline 1 1 0;
+    9.235 7.3312527 spline spline 1 1 0;
+    19.12 4.4192882 spline spline 1 1 0;
+    22.41 3.0578457 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX leftShoulder 3 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    3.625 -63.946666 spline spline 1 1 0;
+    6.61 -102.78848 spline spline 1 1 0;
+    15.565 -16.02564 spline spline 1 1 0;
+    20.045 -0.042249578 spline spline 1 1 0;
+    23.03 -0.042249578 spline spline 1 1 0;
+    29 -0.042249578 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateY rotateY leftShoulder 3 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    3.625 147.79215 spline spline 1 1 0;
+    6.61 91.394083 spline spline 1 1 0;
+    15.565 23.197705 spline spline 1 1 0;
+    20.045 0 spline spline 1 1 0;
+    23.03 0 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateZ rotateZ leftShoulder 3 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 spline spline 1 1 0;
+    3.625 157.3374 spline spline 1 1 0;
+    6.61 92.424686 spline spline 1 1 0;
+    15.565 9.8969521 spline spline 1 1 0;
+    20.045 0 spline spline 1 1 0;
+    23.03 0 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX leftElbow 4 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -4.7615912 spline spline 1 1 0;
+    2.645 0 flat flat 1 1 0;
+    4.29 -39.482025 spline spline 1 1 0;
+    9.235 0 spline spline 1 1 0;
+    19.12 4.2927941 spline spline 1 1 0;
+    22.41 3.6920532 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim joint43 5 0 0;
+anim lowerLeftArm 5 3 0;
+anim lowerLeftArmShape 6 0 0;
+anim polySurfaceShape5 6 0 0;
+anim polySurfaceShape18 6 0 0;
+anim upperLeftArm 4 2 0;
+anim upperLeftArmShape 5 0 0;
+anim polySurfaceShape17 5 0 0;
+anim leftShoulder1 3 1 0;
+anim leftShoulder1Shape 4 0 0;
+anim chest2 2 1 0;
+anim chest2Shape 3 0 0;
+anim rotate.rotateX rotateX tail 1 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.52121321 spline spline 1 1 0;
+    5.945 0 spline spline 1 1 0;
+    10.88 -19.458626 spline spline 1 1 0;
+    15.825 0 spline spline 1 1 0;
+    19.12 1.9900867 spline spline 1 1 0;
+    20.765 15.954103 spline spline 1 1 0;
+    25.71 1.9900867 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim joint37 2 0 0;
+anim tail 2 1 0;
+anim tailShape 3 0 0;
+anim rotate.rotateX rotateX rightHip 1 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 2.0814365 spline spline 1 1 0;
+    2.645 7.4665133e-005 spline spline 1 1 0;
+    10.88 -31.732193 spline spline 1 1 0;
+    15.825 -5.4366362 spline spline 1 1 0;
+    19.12 -4.9616042 spline spline 1 1 0;
+    22.41 -11.467378 spline spline 1 1 0;
+    25.71 -1.6363803 spline spline 1 1 0;
+    29 7.4665133e-005 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX rightKnee 2 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 3.400594 spline spline 1 1 0;
+    7.59 4.4385646e-005 spline spline 1 1 0;
+    10.88 -27.291103 spline spline 1 1 0;
+    29 4.4385646e-005 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX rightAnkle 3 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -2.616488 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    9.235 41.009445 spline spline 1 1 0;
+    14.175 -0.29855771 spline spline 1 1 0;
+    20.765 49.429054 spline spline 1 1 0;
+    22.41 44.096209 spline spline 1 1 0;
+    25.71 3.6457597 spline spline 1 1 0;
+    27.355 5.7862936 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateY rotateY rightAnkle 3 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.39391862 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    9.235 -6.1740713 spline spline 1 1 0;
+    14.175 -0.68870943 spline spline 1 1 0;
+    20.765 -10.013829 spline spline 1 1 0;
+    22.41 -9.1456338 spline spline 1 1 0;
+    25.71 -2.7593755 spline spline 1 1 0;
+    27.355 -1.254256 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateZ rotateZ rightAnkle 3 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -1.0471199 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    9.235 16.412004 spline spline 1 1 0;
+    14.175 0.0078796345 spline spline 1 1 0;
+    20.765 21.744577 spline spline 1 1 0;
+    22.41 17.980922 spline spline 1 1 0;
+    25.71 0.67689475 spline spline 1 1 0;
+    27.355 1.4819422 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX rightToe 4 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 2.5850105 spline spline 1 1 0;
+    5.945 0 spline spline 1 1 0;
+    10.88 -22.860638 spline spline 1 1 0;
+    14.175 0 spline spline 1 1 0;
+    19.12 0 spline spline 1 1 0;
+    22.41 30.705062 spline spline 1 1 0;
+    27.355 -17.987505 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim joint51 5 0 0;
+anim rightToes 5 1 0;
+anim rightToesShape 6 0 0;
+anim rightHeel 4 2 0;
+anim rightHeelShape 5 0 0;
+anim polySurfaceShape1 5 0 0;
+anim rightLowerLeg 3 1 0;
+anim rightLowerLegShape 4 0 0;
+anim rightUpperLeg 2 1 0;
+anim rightUpperLegShape 3 0 0;
+anim rotate.rotateX rotateX leftHip 1 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 2.0814365 spline spline 1 1 0;
+    2.645 7.4665133e-005 spline spline 1 1 0;
+    10.88 -31.732193 spline spline 1 1 0;
+    15.825 -5.4366362 spline spline 1 1 0;
+    19.12 -4.9616042 spline spline 1 1 0;
+    22.41 -11.467378 spline spline 1 1 0;
+    25.71 -1.6363803 spline spline 1 1 0;
+    29 7.4665133e-005 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX leftKnee 2 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 3.400594 spline spline 1 1 0;
+    7.59 4.4385646e-005 spline spline 1 1 0;
+    10.88 -27.291103 spline spline 1 1 0;
+    29 4.4385646e-005 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX LeftAnkle 3 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -2.657688 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    9.235 41.65519 spline spline 1 1 0;
+    14.175 -1.0497102 spline spline 1 1 0;
+    20.765 47.800891 spline spline 1 1 0;
+    22.41 44.433873 spline spline 1 1 0;
+    25.71 2.71949 spline spline 1 1 0;
+    27.355 5.1920959 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateY rotateY LeftAnkle 3 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.41028177 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    9.235 6.4305389 spline spline 1 1 0;
+    14.175 0.72287858 spline spline 1 1 0;
+    20.765 9.0215565 spline spline 1 1 0;
+    22.41 8.3205997 spline spline 1 1 0;
+    25.71 2.4493495 spline spline 1 1 0;
+    27.355 1.088651 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateZ rotateZ LeftAnkle 3 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 1.0718963 spline spline 1 1 0;
+    2.645 0 spline spline 1 1 0;
+    9.235 -16.800334 spline spline 1 1 0;
+    14.175 0.24193652 spline spline 1 1 0;
+    20.765 -20.412 spline spline 1 1 0;
+    22.41 -18.95954 spline spline 1 1 0;
+    25.71 -0.21974982 spline spline 1 1 0;
+    27.355 -1.117292 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX LeftToe 4 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 2.5850105 spline spline 1 1 0;
+    5.945 0 spline spline 1 1 0;
+    10.88 -22.860638 spline spline 1 1 0;
+    14.175 0 spline spline 1 1 0;
+    19.12 0 spline spline 1 1 0;
+    22.41 30.705062 spline spline 1 1 0;
+    27.355 -17.987505 spline spline 1 1 0;
+    29 0 spline spline 1 1 0;
+  }
+}
+anim joint51 5 0 0;
+anim leftToes 5 1 0;
+anim leftToesShape 6 0 0;
+anim leftHeel 4 2 0;
+anim leftHeelShape 5 0 0;
+anim polySurfaceShape1 5 0 0;
+anim leftLowerLeg 3 2 0;
+anim leftLowerLegShape 4 0 0;
+anim polySurfaceShape8 4 0 0;
+anim leftUpperLeg 2 1 0;
+anim leftUpperLegShape 3 0 0;
+anim butt2 1 1 0;
+anim butt2Shape 2 0 0;
