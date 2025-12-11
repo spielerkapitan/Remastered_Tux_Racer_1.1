@@ -23,3 +23,15 @@ New Terrains - not started to make this one
 Fix Original Developers Errors - Yes
 
 Try To Add New Models - idk
+
+# What Tools we did use:
+
+text editor - for modifying scripts
+
+Hex Editor ( imhex ) - for modifying hard-coded in-game texts
+
+Reshade 3.0 ( Image Upscaler NO AI ) - for upscaling some textures like the characters textures
+
+Image Editor ( i used RealWorld Paint ) - for modifying images
+
+Audacity - for modiying music and audio
