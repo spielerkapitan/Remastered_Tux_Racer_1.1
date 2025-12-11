@@ -10,3 +10,16 @@ screnshots:
 ![Screenshot](https://raw.githubusercontent.com/spielerkapitan/Remastered_Tux_Racer_1.1/refs/heads/main/tuxracer%202025-11-26%2013-46-10_746.png)
 
 if you want to test on linux, only copy all folders and replace everything
+
+
+# Plans:
+
+HD Textures - not finished, only some textures have changed
+
+New Courses - not even started to make this one
+
+New Terrains - not started to make this one
+
+Fix Original Developers Errors - Yes
+
+Try To Add New Models - idk
