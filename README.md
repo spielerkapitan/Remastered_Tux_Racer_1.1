@@ -24,6 +24,8 @@ Fix Original Developers Errors - Yes
 
 Try To Add New Models - idk
 
+Improve Lighting and another things - Yes ( i only improved the forest sunset lighting yet )
+
 # What Tools we did use:
 
 text editor - for modifying scripts
