@@ -36,4 +36,4 @@ Reshade 3.0 ( Image Upscaler NO AI ) - for upscaling some textures like the char
 
 Image Editor ( i used RealWorld Paint ) - for modifying images
 
-Audacity - for modiying music and audio
+Audacity - for modifying music and audio
